@@ -1,12 +1,15 @@
 #Node modules
 node_modules/
 
+.vscode/
+
 #upload images
 images/
 
 yarn-error.log
 yarn.lock
 .eslintcache
+npm-debug.log
 
 # Environment variables
 .env
@@ -41,3 +44,39 @@ yarn.lock
 *.lock
 
 ca-certificate.crt
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
