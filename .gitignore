@@ -14,6 +14,12 @@ yarn.lock
 # Credentials of database
 ormconfig.json
 ormconfig.js
+ormconfig*
+
+ngrok.exe
+
+#Migrations
+migration/
 
 # Folder of javascript
 dist/
