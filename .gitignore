@@ -1,0 +1,37 @@
+#Node modules
+node_modules/
+
+#upload images
+images/
+
+yarn-error.log
+yarn.lock
+.eslintcache
+
+# Environment variables
+.env
+
+# Credentials of database
+ormconfig.json
+ormconfig.js
+
+# Folder of javascript
+dist/
+Dockerfile*
+
+## Frontend
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# Npm package
+package-lock.json
+
+# production
+build/
+yarn.lock
+*.lock
+
+ca-certificate.crt

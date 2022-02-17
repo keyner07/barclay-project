@@ -1,0 +1,12 @@
+{
+  "name": "bproject",
+  "version": "0.1.0",
+  "description": "Barclay project",
+  "author": "Keyner Baez <skerling19@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {}
+}
